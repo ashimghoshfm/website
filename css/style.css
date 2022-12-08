@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* menu bar start */
+
+.navbar{
+    background-color: white;
+}
+.navbar-nav{
+    float:right;
+}
+.nav-link{
+    color: black;
+    font-size:1.1rem;
+    font-weight:700;
+    cursor:pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: black;
+    color:white;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+}
+.navbar-brand:hover{
+    color: #2be293;
+}
+/* menu bar close */
+
+
+.main{
+    height: 100vh;
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .container{
+    height: 200px;
+    width: 100%;
+    text-align: center
+}
+.main h1{
+    font-size: 55px;
+}
+.main p{
+    font-size: 18px;
+}
+.main .bt1{
+    padding: 10px 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.main .bt1:hover{
+    background: black;
+    color: white;
+}
+/* main close */
+
+
+/* services start */
+.card{
+    border: none;
+    border-radius: 5%;
+    outline: none;
+    box-shadow: -8px 13px 26px -11px rgba(0,0,0,0.57);
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+/* services close */
+
+
+
+/* footer */
+footer{
+    background-color: rgb(54, 47, 47);
+    color: lightgray;
+}
+.ft1{
+    width:40%;
+    display: inline-block;
+}
+.ft2{
+    width: 40%;
+    float: right;
+    display: inline-block;
+}
